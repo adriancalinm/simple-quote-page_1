@@ -60,8 +60,15 @@
 
 .btn:active {
   box-shadow: 0.2vw 0.2vw 0.2vw #000000;
-  transform: translateY(0.2vw)
+  transform: translateY(0.2vw);
+  background-color: rgba(255, 255, 255, 0.4);
 }
+
+a:hover {
+    background-color: black;
+    transition: color 1s ease-in;
+    color: ghostwhite;
+  }
 
 
 @media only screen and (min-width: 600px) {
@@ -84,9 +91,5 @@
   .btn {
     font-size: 1.1vw;
   }
-  a:hover {
-    background-color: black;
-    transition: color 1s ease-in;
-    color: ghostwhite;
-  }
+  
 }
