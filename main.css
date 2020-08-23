@@ -78,14 +78,15 @@
     padding-bottom: 3px;
     font-size: 1.5vw;
   }
-  a:hover {
-    background-color: black;
-    transition: color 1s ease-in;
-    color: ghostwhite;
-  }
+  
 }
 @media only screen and (min-width: 900px) {
   .btn {
     font-size: 1.1vw;
+  }
+  a:hover {
+    background-color: black;
+    transition: color 1s ease-in;
+    color: ghostwhite;
   }
 }
