@@ -66,17 +66,17 @@
 
 @media only screen and (min-width: 600px) {
   .hero_text h1 {
-    font-size: 4vh;
+    font-size: 4.5vh;
   }
   .author h2 {
-    font-size: 3vh;
+    font-size: 3.5vh;
   }
   .btn {
     border: 2px solid white;
     border-radius: 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 1.1vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 1.5vw;
   }
   a:hover {
     background-color: black;
@@ -84,9 +84,8 @@
     color: ghostwhite;
   }
 }
-
-@media only screen and (orientation: landscape) {
-  .hero_text h1 {
-    font-size: 4vh;
+@media only screen and (min-width: 900px) {
+  .btn {
+    font-size: 1.1vw;
   }
 }
