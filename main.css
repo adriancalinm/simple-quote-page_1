@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+.cover {
+  background: url(assets/freedom.jpg) no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+   
+}
+
+.wrapper {
+  width: 85vw;
+  height: 80vh;
+  text-align: center;
+  margin: auto;
+  padding-top: 10vh;
+}
+
+.hero_text h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 5vw;
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: gray;
+}
+
+.author h2 {
+  font-family: 'Crimson Text', serif;
+  font-size: 3vw;
+  font-style:italic;
+  color: gray;
+  padding-top: 2rem;
+}
+
+.buttons {
+  text-align:right;
+  width: 90vw;
+  margin: 10vh auto 0;
+  
+}
+
+
+.btn {
+  display:inline-block;
+  width: 15vw;
+  border: 1px solid white;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 1.5vh;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight:bold;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0.4vw 0.4vw 0.4vw #000000;     
+}
+
+.btn:active {
+  box-shadow: 0.2vw 0.2vw 0.2vw #000000;
+  transform: translateY(0.2vw)
+}
+
+
+@media only screen and (min-width: 600px) {
+  .hero_text h1 {
+    font-size: 4vh;
+  }
+  .btn {
+    border: 2px solid white;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.1vw;
+  }
+  a:hover {
+    background-color: black;
+    transition: color 1s ease-in;
+    color: ghostwhite;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .hero_text h1 {
+    font-size: 4vh;
+  }
+}
