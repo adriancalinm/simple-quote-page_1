@@ -68,6 +68,9 @@
   .hero_text h1 {
     font-size: 4vh;
   }
+  .author h2 {
+    font-size: 2.5vh;
+  }
   .btn {
     border: 2px solid white;
     border-radius: 3px;
